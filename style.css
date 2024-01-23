@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FCF3CF ;
+}
+.main .header{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    background-color:red;
+    top:10px;
+}
+.main .header .call a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+}
+.main .header .mail a{
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+}
+.main .sticky{
+    padding-top: 13px;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 23px; 
+border:none;
+word-spacing: 6px;
+}
+.main .sticky img{
+    width: 15;
+    text-align: left;
+    
+}
+.main .sticky .navbar{
+    color: black;
+    font-size: larger;
+    background-color: white;
+    text-align: right;
+    padding-left: 32px;
+    padding-right: 32px;
+
+    
+}
+.main .sticky .browse{
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    width: 15%;
+    border-radius: 14px;
+    
+}
+.main .image img{
+    width: 60%;
+    border-radius:50px;
+}
+.main .fixed1 .fixed-btn1{
+    padding: 14px;
+    border-radius: 15px;
+    background-color: red;
+    color:white;
+    position: fixed;
+    left:0;
+    bottom:60px;
+    font-size: 13px;
+
+}
+
+.main .fixed2 .fixed-btn2{
+    padding: 9px;
+    border-radius: 15px;
+    background-color: red;
+    color:white;
+    position: fixed;
+    right:20%;
+    bottom:30%;
+    font-size: 13px;
+}
